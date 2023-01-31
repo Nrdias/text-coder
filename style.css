@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app{
+    margin: 20%;
+    padding: 0;
+    width: 100%;
+    height: 50em;
+    display: flex;
+}
+
+#input__text, #output__text{
+    height: 80%;
+    width: 30em;
+    resize: none;
+    border: none;
+    box-shadow: 0 3px 30px grey;
+    border-radius: 10px;
+}
+
+#input__text:focus, #output__text:focus{
+    box-shadow: 0 3px 30px grey;
+    outline: 0;
+}
+
+#buttons__input, #buttons__output{
+    height: 3em;
+    width: 10em;
+    margin: 10px;
+    border-radius: 10px;
+    border: none goldenrod;
+    cursor: pointer;
+    box-shadow: 0 5px 20px grey;
+}
+
+#buttons__input:hover, #buttons__output:hover{
+    background-color: yellow;
+    border: solid goldenrod;
+}
+
+#buttons__input:active, #buttons__output:active{
+    scale: 0.9;
+    transition: all 0s;
+}
+
+
+.app__buttons{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.app__input, .app__output{
+    height: 100%;
+    text-align: center;
+}
+
+h1{
+    border-bottom: 1px solid;
+}
